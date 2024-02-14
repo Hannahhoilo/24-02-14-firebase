@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Learn Firebase</title>
+		<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../src/css/style.css">
+	</head>
+
+	<body>
+		<h1>Firebase</h1>
+		<form class="add-trainers-form">
+			<div>
+				<label for="firstname">Firstname: </label>
+				<input type="text" name="firstname" class="firstname">
+			</div>
+			<div>
+				<label for="lastname">Lastname: </label>
+				<input type="text" name="lastname" class="lastname">
+			</div>
+			<div>
+				<label for="birthyear">Birthyear: </label>
+				<input type="text" name="birthyear" class="birthyear">
+			</div>
+			<button type="submit" class="add-trainers-button">Submit</button>
+		</form>
+
+		<br>
+		<hr>
+		
+
+		<form class="delete-trainer-form">
+			<label for="deleteID">Delete ID</label>
+			<input type="text" name="deleteID" class="delete-ID">
+			<button class="delete-trainer-button">Delete Document</button>
+		</form>
+
+		<form class="update-trainer-form">
+			<label for="updateID">Update ID</label>
+			<input type="text" name="updateID" class="update-ID">
+			<button class="update-trainer-button">Update Document</button>
+		</form>
+
+		<form class="auth-form">
+			<div>
+				<label for="email">Email</label>
+				<input type="email" name="email" class="email">
+			</div>
+			<div>
+				<label for="password">Password</label>
+				<input type="password" name="password" class="password">
+			</div>
+			<button class="sign-up-button">Sign Up</button>
+			<button class="sign-in-button">Sign In</button>
+			<button class="sign-out-button">Sign Out</button>
+		</form>
+
+		<div class="secret-content">
+			<br>
+			<h2>YOU CAN SEE THIS SECRET MESSAGE IF YOU ARE AUTHENTICATED! >:D</h2>
+		</div>
+
+		
+
+		<script src="./bundle.js"></script>
+	</body>
+
+</html>
+
